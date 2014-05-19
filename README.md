@@ -11,3 +11,9 @@ remote/distributed enviroments/servers
 ## area of inquiry
 
 process management, like PID might be helpful
+
+## result of inquiry
+
+confirm process uptime.
+
+observe child PID adjustments indefinitely with recursive process resurect calls after exit
