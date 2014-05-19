@@ -12,7 +12,7 @@ remote/distributed enviroments/servers
 
 process management, like PID might be helpful
 
-## result of inquiry
+## result
 
 confirm process uptime.
 
