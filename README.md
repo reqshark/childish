@@ -7,3 +7,7 @@ remote/distributed enviroments/servers
 ## use
 
 `node draft`
+
+## area of inquiry
+
+process management, like PID might be helpful
