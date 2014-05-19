@@ -1,7 +1,9 @@
 var data = {};
 
-data.firstPart = 'some data';
+data.pid = process.pid;
 
-data.secondPart = process.pid;
-
-process.send(data);
+setTimeout(function(){
+  //wait a second
+  data.uptime = process.uptime();
+  process.send(data);
+},1000)

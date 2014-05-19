@@ -1,12 +1,9 @@
 
-//var os = require('os');
-//var typicalUbuntuAddress = os.networkInterfaces().eth0[0].address;
-
-
 function consolidateMsg(message){
   //socket.send(message)
 
-  console.log(message)
+  if(message.pid)
+    console.log(message)
 }
 
 
